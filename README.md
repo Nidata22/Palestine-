@@ -1,27 +1,38 @@
-<!DOCTYPE html>
-<html lang="tr">
+<!DOCTYPE html><html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Özgür Filistin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harekete Geç</title>
   <style>
     body {
+      background-color: #111;
+      color: #eee;
       font-family: Arial, sans-serif;
-      margin: 40px auto;
-      padding: 20px;
-      max-width: 800px;
-      line-height: 1.8;
-      color: #222;
-      background-color: #fdfdfd;
-    }
-    h1 {
+      padding: 2rem;
+      line-height: 1.6;
       text-align: center;
-      color: #b30000;
+    }
+    .content {
+      max-width: 600px;
+      margin: auto;
+      border: 2px solid #eee;
+      border-radius: 10px;
+      padding: 2rem;
+      background-color: #222;
+    }
+    .flag {
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
-  <h1>Özgür Filistin</h1>
-  <p>Bu bir savaş değil, bir soykırımdır. İsrail evleri yıkıyor, hastaneleri bombalıyor, okulları hedef alıyor. Çocukları öldürüyor, anneleri eşsiz bırakıyor, babaları evlatsız bırakıyor. Aç bırakıyor, susuz bırakıyor, elektriği kesiyor, yardım konvoylarını vuruyor. Mülteci kamplarını yerle bir ediyor. Yaralıları taşıyan ambulansları bile hedef alıyor.</p>
-  <p>Peki hangi savaşta sivilleri aç bırakmak, ambulansları vurmak hak görülmüştür? Hangi vicdan bunu savunabilir? Bu sadece Müslümanların değil, insan olabilen herkesin davasıdır. Çocuklar diri diri yanarken sessiz kalanların insanlığı ölmüştür. Biz susmayacağız. Unutmayacağız. Ve özgür Filistin için vazgeçmeyeceğiz.</p>
+  <div class="content">
+    <div class="flag">🇵🇸</div>
+    <h1>Harekete Geç</h1>
+    <p>Bu bir savaş değil, bir soykırımdır. İsrail evleri yıkıyor, hastaneleri bombalıyor, okulları hedef alıyor. Çocukları öldürüyor, anneleri eşsiz bırakıyor, babaları evlatsız bırakıyor. Aç bırakıyor, susuz bırakıyor, elektriği kesiyor, yardım konvoylarını vuruyor. Mülteci kamplarını yerle bir ediyor. Yaralıları taşıyan ambulansları bile hedef alıyor.</p>
+    <p>Peki hangi savaşta sivilleri aç bırakmak, ambulansları vurmak hak görülmüştür? Hangi vicdan bunu savunabilir? Bu sadece Müslümanların değil, insan olabilen herkesin davasıdır. Çocuklar diri diri yanarken sessiz kalanların insanlığı ölmüştür. Biz susmayacağız. Unutmayacağız. Ve özgür Filistin için vazgeçmeyeceğiz.</p>
+    <div class="flag">🇵🇸</div>
+  </div>
 </body>
 </html>
